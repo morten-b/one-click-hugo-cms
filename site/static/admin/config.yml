@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  repo: morten-b/one-click-hugo-cms
+  name: github
   branch: main
+  base_url: https://borum-by-dev.azurewebsites.net
+  auth_endpoint: auth/github
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
